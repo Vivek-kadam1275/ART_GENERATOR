@@ -1,0 +1,29 @@
+export const Data=[
+    {id:0,
+     src:"https://replicate.delivery/yhqm/bi5JXo0QTtahDh5qCQfubeE8hbF7U2HfLTeGEafZQYdyxX3cC/output_1.png"
+    },
+    {id:1,
+     src:"https://replicate.delivery/yhqm/v9h6JaqhLkJfJ6CaoR2P9eZ0n3JabAQzenyM3JJbfRzZhrbOB/output_1.png"
+    },
+    {id:2,
+     src:"https://replicate.delivery/yhqm/pGjt5s2YmhaRIRKrFYGdbDGuhY18wXBAzfp7JUfxi8sT96mTA/output_1.png"
+    },
+    {id:3,
+     src:"https://replicate.delivery/pbxt/WCe2KAcHUcxsB6jf1TGiSb3OnUKbsCYUfjTxUnIxE3Jnn3iiA/output_1.png"
+    },
+    {id:4,
+    src:"https://replicate.delivery/pbxt/fZIm9cPz4gRfP0TMUJ5zZTpN1auBFHetMp8LajuKl2cfTvFFB/output_1.png"
+    },
+    {id:5,
+     src:"https://replicate.delivery/pbxt/XCjov9f6WizKdapEyZf9OlxG1mkBfoyWLveiCmvoodEOaoLFB/output_1.png"
+    },
+    {id:6,
+     src:"https://replicate.delivery/pbxt/7DU4xZdgP94qAdnc9BSVrqjE3FpGAHmnfwfBG5QtlJq4HLURA/output_1.png"
+    },
+    {id:7,
+     src:"https://pbxt.replicate.delivery/HH8gRWWXnL7SJFJhO9NMKeEBWSORQDcqv7zYaCvvNTRiVEsIA/output_1.png"
+    },
+    {id:8,
+     src:"https://pbxt.replicate.delivery/lT7WaPm5hSLwMRfLQ1YJTL6PLMkNSjX7qU5cBDR38f2K4ZbRA/output_1.png"
+    }
+]

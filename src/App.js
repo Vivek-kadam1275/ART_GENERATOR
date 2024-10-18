@@ -1,24 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './components/Navbar';
+import Main from './components/Main';
+import { Route, Routes } from 'react-router-dom';
+import Instructions from './pages/Instructions';
+import Gallery from './pages/Gallery';
+import { Toaster } from 'react-hot-toast';
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div>
+      <Toaster/>
+      <Navbar/>
+      <Routes>
+        <Route path='/' element={ <Main/>}/>
+        <Route path='/instructions' element={<Instructions/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
+      </Routes>
+     </div>
   );
 }
 
